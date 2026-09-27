@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ELYCKER TRAVELLERS // Adventure Beyond</title>
+  <meta name="description" content="ELYTRA — futuristic adventure travel experiences across the world.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="orb orb-a"></div><div class="orb orb-b"></div>
+
+  <header class="nav">
+    <a class="brand" href="#home"><span>✦</span> ELYCKER TRAVELLERS</a>
+    <button class="menu-btn" aria-label="Toggle menu">☰</button>
+    <nav class="links">
+      <a href="#about">About</a><a href="#destinations">Destinations</a>
+      <a href="#gallery">Gallery</a><a href="#booking">Booking</a><a href="#faq">FAQ</a>
+      <a class="nav-cta" href="#contact">Launch a trip ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">EXPLORE WITHOUT LIMITS // 01</p>
+        <h1>THE WORLD IS<br><span>YOUR PLAYGROUND.</span></h1>
+        <p class="lead">Curated adventures for people who would rather collect stories than stay inside the map.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#destinations">Explore missions <span>↗</span></a>
+          <a class="btn ghost" href="#about">How ELYCKER works</a>
+        </div>
+        <div class="stats"><div><b>40+</b><small>destinations</small></div><div><b>12</b><small>adventure types</small></div><div><b>24/7</b><small>trip support</small></div></div>
+      </div>
+      <div class="hero-visual">
+        <div class="planet"><div class="grid"></div><span>EXPEDITION<br>01</span></div>
+        <div class="hud hud-top">LAT 01° 17' S<br>LON 36° 49' E</div>
+        <div class="hud hud-bottom">SIGNAL: <i></i> ONLINE<br>ROUTE: ELYCKER-X</div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-head"><p class="eyebrow">02 // THE SYSTEM</p><h2>Adventure,<br><em>re-engineered.</em></h2></div>
+      <div class="about-grid">
+        <p class="big-copy">ELYCKER started with one simple idea: extraordinary places shouldn't feel impossible to reach. We research, curate and connect travelers with experiences worth remembering.</p>
+        <div class="feature"><span>01</span><h3>DISCOVER</h3><p>Find routes, landscapes and experiences matched to the way you want to explore.</p></div>
+        <div class="feature"><span>02</span><h3>CONNECT</h3><p>Travel with a community of curious people and local experience leaders.</p></div>
+        <div class="feature"><span>03</span><h3>REMEMBER</h3><p>Return with stories, photographs and moments that outlive the itinerary.</p></div>
+      </div>
+    </section>
+
+    <section id="destinations" class="section destinations">
+      <div class="section-head row"><div><p class="eyebrow">03 // KENYA MISSION CONTROL</p><h2>Discover <em>Kenya.</em></h2><p class="section-note">Wild landscapes, ocean escapes, mountain trails and living culture — all in one country.</p></div>
+        <div class="filters"><button class="filter active" data-filter="all">ALL</button><button class="filter" data-filter="safari">WILDLIFE</button><button class="filter" data-filter="coast">COAST</button><button class="filter" data-filter="culture">CULTURE</button><button class="filter" data-filter="mountain">MOUNTAIN</button></div>
+      </div>
+      <div class="cards">
+        <article class="card" data-type="safari"><div class="card-img photo-mara"><span>01 / WILDLIFE</span></div><div class="card-body"><h3>MAASAI MARA</h3><p>Great Rift Valley · Safari & Maasai culture</p><b>EXPLORE FROM KES 45K</b></div></article>
+        <article class="card" data-type="mountain"><div class="card-img photo-amboseli"><span>02 / MOUNTAIN</span></div><div class="card-body"><h3>AMBOSELI</h3><p>Kajiado · Elephants & Kilimanjaro views</p><b>EXPLORE FROM KES 32K</b></div></article>
+        <article class="card" data-type="coast"><div class="card-img photo-diani"><span>03 / COAST</span></div><div class="card-body"><h3>DIANI BEACH</h3><p>Kwale · Ocean, reef & Swahili coast</p><b>EXPLORE FROM KES 28K</b></div></article>
+        <article class="card" data-type="mountain"><div class="card-img photo-kenya"><span>04 / MOUNTAIN</span></div><div class="card-body"><h3>MOUNT KENYA</h3><p>Central Kenya · Trekking & alpine scenery</p><b>EXPLORE FROM KES 38K</b></div></article>
+        <article class="card" data-type="culture"><div class="card-img photo-lamu"><span>05 / CULTURE</span></div><div class="card-body"><h3>LAMU OLD TOWN</h3><p>Coast · Swahili heritage & island life</p><b>EXPLORE FROM KES 30K</b></div></article>
+        <article class="card" data-type="culture"><div class="card-img photo-samburu"><span>06 / CULTURE + WILDLIFE</span></div><div class="card-body"><h3>SAMBURU</h3><p>North Kenya · Wildlife & Samburu culture</p><b>EXPLORE FROM KES 42K</b></div></article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery">
+      <div class="section-head"><p class="eyebrow">04 // TRAVEL LOG</p><h2>See Kenya.<br><em>Feel the journey.</em></h2><p class="section-note">A visual field log for the places, people and landscapes that make the trip unforgettable.</p></div>
+      <div class="gallery-grid">
+        <div class="tile t1 photo-mara"><span>MAASAI MARA / GOLDEN HOUR</span></div><div class="tile t2 photo-diani"><span>DIANI / INDIAN OCEAN</span></div>
+        <div class="tile t3 photo-lamu"><span>LAMU / SWAHILI HERITAGE</span></div><div class="tile t4 photo-amboseli"><span>AMBOSELI / KILIMANJARO</span></div>
+        <div class="tile t5 photo-kenya"><span>MOUNT KENYA / HIGH TRAIL</span></div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section testimonials">
+      <div class="section-head row"><div><p class="eyebrow">05 // TRAVELLER SIGNALS</p><h2>Stories from<br><em>the road.</em></h2></div><div class="quote-mark">“</div></div>
+      <div class="testimonial-grid">
+        <article class="testimonial"><div class="stars">★★★★★</div><p>“The Mara felt completely different when we experienced it with local guides. The wildlife was incredible, but the cultural moments made the trip.”</p><div class="traveller"><span>AM</span><div><b>Amina M.</b><small>Nairobi · Safari Explorer</small></div></div></article>
+        <article class="testimonial"><div class="stars">★★★★★</div><p>“From the red earth of Amboseli to the ocean in Diani, the itinerary felt adventurous without becoming stressful. Exactly how I like to travel.”</p><div class="traveller"><span>DK</span><div><b>Daniel K.</b><small>Kisumu · Weekend Explorer</small></div></div></article>
+        <article class="testimonial"><div class="stars">★★★★★</div><p>“Lamu gave me a completely different view of Kenya. Beautiful architecture, Swahili food, friendly people and slow island mornings.”</p><div class="traveller"><span>NS</span><div><b>Naomi S.</b><small>Mombasa · Culture Seeker</small></div></div></article>
+      </div>
+    </section>
+
+    <section id="booking" class="section booking">
+      <div class="section-head"><p class="eyebrow">06 // LAUNCH PAD</p><h2>Build your<br><em>next story.</em></h2></div>
+      <div class="booking-box">
+        <div><span class="step">01</span><label>REGION</label><select id="region"><option>Kenya</option><option>Kenyan Coast</option><option>Rift Valley</option><option>Central Kenya</option><option>Northern Kenya</option></select></div>
+        <div><span class="step">02</span><label>MISSION</label><select id="mission"><option>Safari</option><option>Hiking</option><option>Diving</option><option>Custom expedition</option></select></div>
+        <div><span class="step">03</span><label>TRAVELERS</label><select><option>1–2</option><option>3–5</option><option>6–10</option><option>10+</option></select></div>
+        <button class="btn primary" id="bookBtn">Request launch ↗</button>
+      </div>
+      <p id="bookingMsg" class="booking-msg"></p>
+    </section>
+
+    <section class="section community">
+      <div class="community-inner"><p class="eyebrow">07 // THE CREW</p><h2>YOU DON'T HAVE TO<br>EXPLORE <em>ALONE.</em></h2><p>Meet travelers, swap routes and discover places through people who have already been there.</p><a class="btn ghost" href="#contact">Join the community →</a></div>
+    </section>
+
+    <section id="faq" class="section faq">
+      <div class="section-head"><p class="eyebrow">08 // SIGNALS</p><h2>Frequently<br><em>asked.</em></h2></div>
+      <div class="faq-list">
+        <details open><summary>Can ELYTRA plan trips anywhere?</summary><p>We can help design trips across our listed regions and discuss custom routes based on your goals.</p></details>
+        <details><summary>Can I build a custom expedition?</summary><p>Yes. Use the booking form to start a conversation about a custom itinerary.</p></details>
+        <details><summary>What happens during an emergency?</summary><p>Trip support and local providers are coordinated around the itinerary and destination requirements.</p></details>
+        <details><summary>Can a booking be cancelled?</summary><p>Cancellation terms depend on the trip and provider. Confirm the applicable terms before payment.</p></details>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div><p class="eyebrow">09 // OPEN CHANNEL</p><h2>LET'S TALK<br><em>ADVENTURE.</em></h2><div class="contact-info"><a href="mailto:elyckerd@gmail.com">✉ elyckerd@gmail.com</a><a href="https://wa.me/254746644614" target="_blank" rel="noopener">☏ +254 746 644 614</a><div class="socials"><a href="https://wa.me/254746644614" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a><a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">ig</a><a href="https://www.threads.net/" target="_blank" rel="noopener" aria-label="Threads">@</a></div></div></div>
+      <form id="contactForm"><input type="email" placeholder="Your email" required><textarea placeholder="What are you dreaming of?" required></textarea><button class="btn primary">Transmit message ↗</button><p id="formMsg"></p></form>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span>✦</span> ELYCKER TRAVELLERS</a><p>ADVENTURE BEYOND THE ORDINARY.</p><p>© 2026 ELYCKER TRAVELLERS</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
